@@ -14,7 +14,20 @@
     <?php include 'includes/header.php'; ?>
     <main>
         <h1>Добро пожаловать!</h1>
-    </main>
+		<div style="margin-top: 20px;">
+  <a href="/articles.php" style="
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #6a11cb;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;">
+    Перейти к статьям
+  </a>
+</div>
+    
+</main>
     <?php include 'includes/footer.php'; ?>
 </body>
 </html>
